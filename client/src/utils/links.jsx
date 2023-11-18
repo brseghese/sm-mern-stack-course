@@ -8,27 +8,27 @@ import { MdAdminPanelSettings } from 'react-icons/md';
 
 const links = [
   {
-    text: 'adicionar trabalho',
+    text: 'Adicionar Trabalho',
     path: '.',
     icon: <FaWpforms />,
   },
   {
-    text: 'todos os trabalhos',
+    text: 'Todos os Trabalhos',
     path: 'all-jobs',
     icon: <MdQueryStats />,
   },
   {
-    text: 'estatísticas',
+    text: 'Estatísticas',
     path: 'stats',
     icon: <IoBarChartSharp />,
   },
   {
-    text: 'perfil',
+    text: 'Perfil',
     path: 'profile',
     icon: <ImProfile />,
   },
   {
-    text: 'configurações',
+    text: 'Configurações',
     path: 'admin',
     icon: <MdAdminPanelSettings />,
   },

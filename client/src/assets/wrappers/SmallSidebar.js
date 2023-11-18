@@ -52,7 +52,6 @@ const Wrapper = styled.aside`
     align-items: center;
     color: var(--text-secondary-color);
     padding: 1rem 0;
-    text-transform: capitalize;
     transition: var(--transition);
   }
   .nav-link:hover {
