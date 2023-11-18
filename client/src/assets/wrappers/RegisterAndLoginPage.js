@@ -27,8 +27,12 @@ const Wrapper = styled.section`
   }
   .member-btn {
     color: var(--primary-500);
-    letter-spacing: var(--letter-spacing);
     margin-left: 0.25rem;
+    transition: var(--transition);
+  }
+  .member-btn:hover {
+    color: var(--primary-700);
+    box-shadow: var(--shadow-3);
   }
 `;
 export default Wrapper;
