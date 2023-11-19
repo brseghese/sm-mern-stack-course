@@ -36,6 +36,7 @@ const Wrapper = styled.section`
   }
   .btn {
     padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
   }
   @media (min-width: 992px) {
     .page {

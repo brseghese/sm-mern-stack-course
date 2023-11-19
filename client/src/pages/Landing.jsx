@@ -16,7 +16,7 @@ const Landing = () => {
           </h1>
           <p>
             O Trampo é a sua ferramenta para simplificar o processo de
-            candidatura a empregos. Voçê estará sempre ciente das datas e
+            candidatura a empregos. Você estará sempre ciente das datas e
             horários marcados para suas entrevistas. Acompanhe o seu progresso,
             desde a primeira candidatura até as fases finais de contratação.
           </p>

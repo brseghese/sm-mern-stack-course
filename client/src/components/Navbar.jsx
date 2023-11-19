@@ -1,5 +1,5 @@
 import Wrapper from '../assets/wrappers/Navbar';
-import { FaBars } from 'react-icons/fa';
+import { FaAlignLeft } from 'react-icons/fa';
 import Logo from './Logo';
 import { useDashboardContext } from '../pages/DashboardLayout';
 import LogoutContainer from './LogoutContainer';
@@ -12,7 +12,7 @@ const Navbar = () => {
     <Wrapper>
       <nav className='nav-center'>
         <button type='button' className='toggle-btn' onClick={toggleSidebar}>
-          <FaBars />
+          <FaAlignLeft />
         </button>
         <div>
           <Logo />

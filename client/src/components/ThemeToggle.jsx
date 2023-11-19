@@ -9,7 +9,7 @@ const ThemeToggle = () => {
       {isDarkTheme ? (
         <BsFillSunFill className='toggle-icon' />
       ) : (
-        <BsFillMoonFill />
+        <BsFillMoonFill className='toggle-icon' />
       )}
     </Wrapper>
   );

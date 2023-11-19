@@ -10,9 +10,9 @@ const Error = () => {
       <Wrapper>
         <div>
           <img src={img} alt='not found' />
-          <h3>opa! página não encontrada!</h3>
+          <h3>Página não encontrada!</h3>
           <p>Não conseguimos encontrar a página que você está procurando...</p>
-          <Link to='/dashboard'>voltar para painel de controle</Link>
+          <Link to='/dashboard'>Voltar</Link>
         </div>
       </Wrapper>
     );
