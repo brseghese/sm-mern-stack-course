@@ -25,8 +25,23 @@ app.post('/', (req, res) => {
   res.json({ message: 'data received', data: req.body });
 });
 
+// Get All Jobs
 app.get('/api/v1/jobs', (req, res) => {
   res.status(200).json({ jobs });
+});
+
+// Create Job
+app.post('/api/v1/jobs', (req, res) => {
+  const { company, position } = req.body;
+  if (!company || !position) {
+    return res
+      .status(400)
+      .json({ message: 'please provide company and position' });
+  }
+  const id = nanoid(10);
+  const job = { id, company, position };
+  jobs.push(job);
+  res.status(200).json({ job });
 });
 
 const port = process.env.PORT || 5000;
