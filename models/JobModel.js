@@ -19,7 +19,16 @@ const JobSchema = new mongoose.Schema(
       default: 'my city',
     },
   },
-  { timestamps: true }
+  {
+    timestamps: {
+      currentTime: () => {
+        const now = new Date();
+        const offset = now.getTimezoneOffset();
+        const adjustedDate = new Date(now.getTime() - offset * 60 * 1000);
+        return adjustedDate.toISOString();
+      },
+    },
+  }
 );
 
 export default mongoose.model('Job', JobSchema);
