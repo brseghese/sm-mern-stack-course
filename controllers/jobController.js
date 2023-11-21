@@ -22,7 +22,7 @@ export const getJob = async (req, res) => {
 export const updateJob = async (req, res) => {
   const { id } = req.params;
   const updatedJob = await Job.findByIdAndUpdate(id, req.body, { new: true });
-  if (!updateJob) throw new NotFoundError(`no job with id ${id}`);
+  if (!updatedJob) throw new NotFoundError(`no job with id ${id}`);
   res.status(StatusCodes.OK).json({ msg: 'job modified', job: updatedJob });
 };
 
