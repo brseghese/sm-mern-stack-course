@@ -27,6 +27,10 @@ app.get('/', (req, res) => {
   res.send('Hello World');
 });
 
+app.get('/api/v1/test', (req, res) => {
+  res.json({ msg: 'test route' });
+});
+
 app.use('/api/v1/jobs', authenticateUser, jobRouter);
 app.use('/api/v1/users', authenticateUser, userRouter);
 app.use('/api/v1/auth', authRouter);
