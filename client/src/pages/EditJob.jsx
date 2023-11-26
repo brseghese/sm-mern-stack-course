@@ -25,7 +25,7 @@ export const action = async ({ request, params }) => {
     toast.success('Trabalho editado com sucesso!');
     return redirect('/dashboard/all-jobs');
   } catch (error) {
-    toast.error(error.response.data.msg);
+    toast.error(error?.response?.data?.msg);
     return error;
   }
 };
