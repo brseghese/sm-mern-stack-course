@@ -40,7 +40,7 @@ const Register = () => {
           type='text'
           name='location'
           labelText='endereço'
-          defaultValue='Ramiz Gattaz, 120'
+          defaultValue='Brasil'
         />
         <FormRow
           type='email'

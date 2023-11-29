@@ -345,17 +345,17 @@ button:disabled {
 }
 
 /* BUTTONS AND BADGES */
-.pending {
+.pendente {
   background: #fef3c7;
   color: #f59e0b;
 }
 
-.interview {
+.entrevista {
   background: #e0e8f9;
   color: #647acb;
 }
 
-.declined {
+.encerrado {
   background: #ffeeee;
   color: #d66a6a;
 }
