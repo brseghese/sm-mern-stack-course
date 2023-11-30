@@ -9,13 +9,13 @@ const Wrapper = styled.div`
     gap: 0 0.5rem;
   }
   .img {
-    width: 25px;
-    height: 25px;
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
   }
   .dropdown {
     position: absolute;
-    top: 45px;
+    top: 55px;
     left: 0;
     width: 100%;
     box-shadow: var(--shadow-2);

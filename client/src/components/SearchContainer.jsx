@@ -23,7 +23,7 @@ const SearchContainer = () => {
             defaultValue='todos'
           />
           <FormRowSelect
-            labelText='tipo'
+            labelText='modalidade'
             name='jobType'
             list={['todos', ...Object.values(JOB_TYPE)]}
             defaultValue='todos'

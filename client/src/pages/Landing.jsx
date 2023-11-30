@@ -15,10 +15,11 @@ const Landing = () => {
             Vagas <span>Centralizadas</span>
           </h1>
           <p>
-            O Trampo é a sua ferramenta para simplificar o processo de
-            candidatura a empregos. Você estará sempre ciente das datas e
-            horários marcados para suas entrevistas. Acompanhe o seu progresso,
-            desde a primeira candidatura até as fases finais de contratação.
+            O Trampo é sua ferramenta para simplificar o processo de candidatura
+            a empregos. Acompanhe de perto seu progresso, desde a primeira
+            candidatura até todas as aplicações de trabalho. Estamos aqui para
+            ser parte da sua jornada rumo ao sucesso profissional. Comece agora
+            mesmo e simplifique cada passo!
           </p>
           <Link to='/register' className='btn register-link'>
             Cria uma Conta

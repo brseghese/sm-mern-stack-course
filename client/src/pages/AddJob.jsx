@@ -44,7 +44,7 @@ const AddJob = () => {
           />
           <FormRowSelect
             name='jobType'
-            labelText='Período'
+            labelText='Modalidade'
             defaultValue={JOB_TYPE.REMOTE}
             list={Object.values(JOB_TYPE)}
           />
