@@ -8,9 +8,9 @@ const ChartsContainer = ({ data }) => {
 
   return (
     <Wrapper>
-      <h4>Candidaturas Mensais</h4>
+      <h4>Trabalhos Aplicados</h4>
       <button type='button' onClick={() => setBarChart(!barChart)}>
-        {barChart ? 'Grafico de Área' : 'Grafico de Barras'}
+        {barChart ? 'Gráfico Área' : 'Gráfico Barra'}
       </button>
       {barChart ? <BarChart data={data} /> : <AreaChart data={data} />}
     </Wrapper>

@@ -5,21 +5,21 @@ import StatItem from './StatItem';
 const StatsContainer = ({ defaultStats }) => {
   const stats = [
     {
-      title: 'candidaturas pendentes',
+      title: 'pendente',
       count: defaultStats?.pending || 0,
       icon: <FaSuitcaseRolling />,
       color: '#f59e0b',
       bcg: '#fef3c7',
     },
     {
-      title: 'entrevistas agendadas',
-      count: defaultStats?.interview || 0,
+      title: 'processando',
+      count: defaultStats?.processing || 0,
       icon: <FaCalendarCheck />,
       color: '#647acb',
       bcg: '#e0e8f9',
     },
     {
-      title: 'cadidaturas encerradas',
+      title: 'encerrado',
       count: defaultStats?.declined || 0,
       icon: <FaBug />,
       color: '#d66a6a',

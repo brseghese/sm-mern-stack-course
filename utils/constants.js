@@ -1,13 +1,13 @@
 export const JOB_STATUS = {
   PENDING: 'pendente',
-  INTERVIEW: 'entrevista',
+  PROCESSING: 'processando',
   DECLINED: 'encerrado',
 };
 
 export const JOB_TYPE = {
-  FULL_TIME: 'integral',
-  PART_TIME: 'parcial',
-  INTERNSHIP: 'estágio',
+  REMOTE: 'remoto',
+  IN_PERSON: 'presencial',
+  HYBRID: 'híbrido',
 };
 
 export const JOB_SORT_BY = {

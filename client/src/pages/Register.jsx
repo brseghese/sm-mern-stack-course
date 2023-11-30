@@ -39,8 +39,8 @@ const Register = () => {
         <FormRow
           type='text'
           name='location'
-          labelText='endereço'
-          defaultValue='Brasil'
+          labelText='cidade / estado'
+          defaultValue='São José do Rio Preto / SP'
         />
         <FormRow
           type='email'
