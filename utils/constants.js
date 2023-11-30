@@ -11,8 +11,8 @@ export const JOB_TYPE = {
 };
 
 export const JOB_SORT_BY = {
-  NEWEST_FIRST: 'recente',
-  OLDEST_FIRST: 'antigo',
+  NEWEST_FIRST: 'novos',
+  OLDEST_FIRST: 'antigos',
   ASCENDING: 'a-z',
   DESCENDING: 'z-a',
 };

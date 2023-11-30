@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 import day from 'dayjs';
 
 export const getAllJobs = async (req, res) => {
-  const { search, jobStatus, jobType } = req.query;
+  const { search, jobStatus, jobType, sort } = req.query;
 
   const queryObject = {
     createdBy: req.user.userId,
@@ -25,7 +25,16 @@ export const getAllJobs = async (req, res) => {
     queryObject.jobType = jobType;
   }
 
-  const jobs = await Job.find(queryObject);
+  const sortOptions = {
+    novos: '-createdAt',
+    antigos: 'createdAt',
+    'a-z': 'position',
+    'z-a': '-position',
+  };
+
+  const sortKey = sortOptions[sort] || sortOptions.novos;
+
+  const jobs = await Job.find(queryObject).sort(sortKey);
   res.status(StatusCodes.OK).json({ jobs });
 };
 
