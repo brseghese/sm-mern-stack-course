@@ -65,7 +65,7 @@ const Profile = () => {
           <FormRow
             type='text'
             name='location'
-            labelText='endereço'
+            labelText='localização'
             defaultValue={location}
           />
           <SubmitBtn formBtn />

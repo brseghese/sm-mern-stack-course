@@ -24,36 +24,11 @@ const Register = () => {
       <Form method='post' className='form'>
         <Logo />
         <h4>Criar uma Conta</h4>
-        <FormRow
-          type='text'
-          name='name'
-          labelText='nome'
-          defaultValue='Bruno'
-        />
-        <FormRow
-          type='text'
-          name='lastName'
-          labelText='sobrenome'
-          defaultValue='Seghese'
-        />
-        <FormRow
-          type='text'
-          name='location'
-          labelText='cidade / estado'
-          defaultValue='São José do Rio Preto / SP'
-        />
-        <FormRow
-          type='email'
-          name='email'
-          labelText='e-mail'
-          defaultValue='brseghese@gmail.com'
-        />
-        <FormRow
-          type='password'
-          name='password'
-          labelText='senha'
-          defaultValue='secret123'
-        />
+        <FormRow type='text' name='name' labelText='nome' />
+        <FormRow type='text' name='lastName' labelText='sobrenome' />
+        <FormRow type='text' name='location' labelText='localização' />
+        <FormRow type='email' name='email' labelText='e-mail' />
+        <FormRow type='password' name='password' labelText='senha' />
         <SubmitBtn />
         <p>
           Já tem conta?

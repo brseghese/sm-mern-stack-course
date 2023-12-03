@@ -24,18 +24,8 @@ const Login = () => {
       <Form method='post' className='form'>
         <Logo />
         <h4>Entrar na Conta</h4>
-        <FormRow
-          type='email'
-          name='email'
-          labelText='e-mail'
-          defaultValue='brseghese@gmail.com'
-        />
-        <FormRow
-          type='password'
-          name='password'
-          labelText='senha'
-          defaultValue='secret123'
-        />
+        <FormRow type='email' name='email' labelText='e-mail' />
+        <FormRow type='password' name='password' labelText='senha' />
         <SubmitBtn />
         <p>
           Não tem conta?
