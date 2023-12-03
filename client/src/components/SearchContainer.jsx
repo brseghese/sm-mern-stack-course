@@ -12,7 +12,7 @@ const SearchContainer = () => {
   return (
     <Wrapper>
       <Form className='form'>
-        <h5 className='form-title'>Pesquisa</h5>
+        <h5 className='form-title'>Pesquisar Trabalho</h5>
         <div className='form-center'>
           <FormRow
             type='search'
@@ -50,8 +50,11 @@ const SearchContainer = () => {
               submit(e.currentTarget.form);
             }}
           />
-          <Link to='/dashboard/all-jobs' className='btn form-btn delete-btn'>
-            Resetar
+          <Link
+            to='/dashboard/all-jobs'
+            className='btn btn-block form-btn delete-btn'
+          >
+            Limpar
           </Link>
         </div>
       </Form>
