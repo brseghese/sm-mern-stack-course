@@ -87,8 +87,6 @@ export const showStats = async (req, res) => {
     return acc;
   }, {});
 
-  console.log(stats);
-
   const defaultStats = {
     pending: stats.pendente || 0,
     processing: stats.processando || 0,
