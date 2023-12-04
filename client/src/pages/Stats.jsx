@@ -3,7 +3,7 @@ import customFetch from '../utils/customFetch';
 import { useLoaderData } from 'react-router-dom';
 
 export const loader = async () => {
-  const response = await customFetch.get('/jobs/statss');
+  const response = await customFetch.get('/jobs/stats');
   return response.data;
 };
 
