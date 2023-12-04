@@ -17,6 +17,8 @@ import {
   EditJob,
 } from './pages';
 
+import ErrorElement from './components/ErrorElement';
+
 import { action as registerAction } from './pages/Register';
 import { action as loginAction } from './pages/Login';
 import { loader as dashboardLoader } from './pages/DashboardLayout';
@@ -79,6 +81,7 @@ const router = createBrowserRouter([
             path: 'stats',
             element: <Stats />,
             loader: statsLoader,
+            errorElement: <ErrorElement />,
           },
           {
             path: 'all-jobs',
