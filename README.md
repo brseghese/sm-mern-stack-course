@@ -2,9 +2,9 @@
 
 ### 🏷️ Descrição do Projeto:
 
-O aplicativo Trampo é um gerenciador de candidaturas a vagas de emprego desenvolvido usando a stack MERN (MongoDB, Express, React, Node.js). O principal propósito do Trampo é permitir que os usuários controlem suas candidaturas a vagas de emprego de forma eficiente.
+O aplicativo Trampo é um gerenciador de candidaturas a vagas de emprego desenvolvido usando a stack MERN (MongoDB, Express, React, Node.js). O principal propósito do Trampo é permitir que os usuários controlem suas candidaturas a vagas de emprego.
 
-⚡ [clique aqui](https://trampo.onrender.com)🔗 e veja o Trampo hospedado em [Render](https://render.com/) versão gratuíta, demora um pouquinho por servidor acordar 😴
+⚡ [Clique aqui](https://trampo.onrender.com) 🔗 e veja o Trampo hospedado (versão gratuíta) em [Render](https://render.com/), demora um pouquinho para o servidor acordar 😴
 
 ---
 
